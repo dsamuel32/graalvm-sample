@@ -1,0 +1,6 @@
+services:
+  sample:
+    container_name: graalvm-sample
+    image: graalvm-sample:latest
+    ports:
+      - 8080:8080
